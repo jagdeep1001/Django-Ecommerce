@@ -1,0 +1,110 @@
+body{
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	
+}
+.br1{
+	
+}
+.button1{
+	background:  #fbceb1;
+	
+}
+.button1:hover{
+	background: #fff5ee
+
+}
+@media only screen and (max-width: 600px) {
+
+  .c1{
+  	display: none;
+  }
+  .c2{
+  	position: center;
+  }
+}
+
+.box1{
+	background: #FEDEDE;
+	height: 250px;
+
+}
+
+
+.box2{
+	background: #FEDEDE;
+	height: 250px;
+	
+}
+
+.dropdown-menu li a {
+  padding: 5px 15px;
+  font-weight: 300;
+}
+
+.dropdown:hover>.dropdown-menu {
+
+display: flex;  
+flex-wrap: wrap;  
+
+min-width: 500px;
+
+}
+.dropdown-item:hover{
+  background: lightpink;
+  color: white;
+  min-width: 140px; 
+}
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+

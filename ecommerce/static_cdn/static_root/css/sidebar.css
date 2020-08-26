@@ -1,0 +1,43 @@
+.a1{
+	text-decoration: none;
+	color:black;
+	border:none;
+}
+.l1:hover{
+	background: #880E4F;
+	border:none;
+	color: white;
+}
+.l1{
+	border:none;
+	border-bottom: 1px solid lightgrey;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .c1{
+  	display: none;
+  }
+  .c2{
+  	position: center;
+  }
+}
+
+     .link-black a {
+          color: black;
+        }
+
+        .link-black a:hover {
+          color: #0056b3;
+        }
+
+        .link-black .active {
+          color: #0056b3;
+        }
+
+        .divider-small {
+          width: 30px;
+          background-color: rgba(0, 0, 0, .1);
+          height: 3px;
+        }
